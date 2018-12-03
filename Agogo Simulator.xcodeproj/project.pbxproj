@@ -8,20 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		E108678821696BF20024A51C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108678721696BF20024A51C /* AppDelegate.swift */; };
-		E108678A21696BF20024A51C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108678921696BF20024A51C /* ViewController.swift */; };
-		E108678D21696BF20024A51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E108678B21696BF20024A51C /* Main.storyboard */; };
+		E108678A21696BF20024A51C /* AgogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108678921696BF20024A51C /* AgogoViewController.swift */; };
+		E108678D21696BF20024A51C /* Agogo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E108678B21696BF20024A51C /* Agogo.storyboard */; };
 		E108678F21696BF50024A51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E108678E21696BF50024A51C /* Assets.xcassets */; };
 		E108679221696BF50024A51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E108679021696BF50024A51C /* LaunchScreen.storyboard */; };
+		E108679E216AB3F40024A51C /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108679D216AB3F40024A51C /* UIImageView+Extensions.swift */; };
+		E10BEE7121A43BD600D4013E /* a3c.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6521A43BD500D4013E /* a3c.wav */; };
+		E10BEE7221A43BD600D4013E /* a2b.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6621A43BD600D4013E /* a2b.wav */; };
+		E10BEE7321A43BD600D4013E /* a1b.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6721A43BD600D4013E /* a1b.wav */; };
+		E10BEE7421A43BD600D4013E /* a2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6821A43BD600D4013E /* a2.wav */; };
+		E10BEE7521A43BD600D4013E /* a1c.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6921A43BD600D4013E /* a1c.wav */; };
+		E10BEE7621A43BD600D4013E /* a1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6A21A43BD600D4013E /* a1.wav */; };
+		E10BEE7721A43BD600D4013E /* a3b.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6B21A43BD600D4013E /* a3b.wav */; };
+		E10BEE7821A43BD600D4013E /* a4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6C21A43BD600D4013E /* a4.wav */; };
+		E10BEE7921A43BD600D4013E /* a3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6D21A43BD600D4013E /* a3.wav */; };
+		E10BEE7A21A43BD600D4013E /* a4b.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6E21A43BD600D4013E /* a4b.wav */; };
+		E10BEE7B21A43BD600D4013E /* a2c.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE6F21A43BD600D4013E /* a2c.wav */; };
+		E10BEE7C21A43BD600D4013E /* a4c.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10BEE7021A43BD600D4013E /* a4c.wav */; };
+		E10BEE7E21A43C5D00D4013E /* AgogoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10BEE7D21A43C5D00D4013E /* AgogoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E108678421696BF20024A51C /* Agogo Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agogo Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E108678721696BF20024A51C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E108678921696BF20024A51C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E108678C21696BF20024A51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E108678921696BF20024A51C /* AgogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgogoViewController.swift; sourceTree = "<group>"; };
+		E108678C21696BF20024A51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Agogo.storyboard; sourceTree = "<group>"; };
 		E108678E21696BF50024A51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E108679121696BF50024A51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E108679321696BF50024A51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E108679D216AB3F40024A51C /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		E10BEE6521A43BD500D4013E /* a3c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a3c.wav; sourceTree = "<group>"; };
+		E10BEE6621A43BD600D4013E /* a2b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a2b.wav; sourceTree = "<group>"; };
+		E10BEE6721A43BD600D4013E /* a1b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a1b.wav; sourceTree = "<group>"; };
+		E10BEE6821A43BD600D4013E /* a2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a2.wav; sourceTree = "<group>"; };
+		E10BEE6921A43BD600D4013E /* a1c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a1c.wav; sourceTree = "<group>"; };
+		E10BEE6A21A43BD600D4013E /* a1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a1.wav; sourceTree = "<group>"; };
+		E10BEE6B21A43BD600D4013E /* a3b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a3b.wav; sourceTree = "<group>"; };
+		E10BEE6C21A43BD600D4013E /* a4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a4.wav; sourceTree = "<group>"; };
+		E10BEE6D21A43BD600D4013E /* a3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a3.wav; sourceTree = "<group>"; };
+		E10BEE6E21A43BD600D4013E /* a4b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a4b.wav; sourceTree = "<group>"; };
+		E10BEE6F21A43BD600D4013E /* a2c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a2c.wav; sourceTree = "<group>"; };
+		E10BEE7021A43BD600D4013E /* a4c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a4c.wav; sourceTree = "<group>"; };
+		E10BEE7D21A43C5D00D4013E /* AgogoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgogoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,52 @@
 		E108678621696BF20024A51C /* Agogo Simulator */ = {
 			isa = PBXGroup;
 			children = (
+				E108679F216AB7880024A51C /* Helpers */,
+				E108679A216AA1260024A51C /* Sounds */,
+				E108679921696EAC0024A51C /* Agogo */,
 				E108678721696BF20024A51C /* AppDelegate.swift */,
-				E108678921696BF20024A51C /* ViewController.swift */,
-				E108678B21696BF20024A51C /* Main.storyboard */,
 				E108678E21696BF50024A51C /* Assets.xcassets */,
 				E108679021696BF50024A51C /* LaunchScreen.storyboard */,
 				E108679321696BF50024A51C /* Info.plist */,
 			);
 			path = "Agogo Simulator";
+			sourceTree = "<group>";
+		};
+		E108679921696EAC0024A51C /* Agogo */ = {
+			isa = PBXGroup;
+			children = (
+				E108678B21696BF20024A51C /* Agogo.storyboard */,
+				E10BEE7D21A43C5D00D4013E /* AgogoModel.swift */,
+				E108678921696BF20024A51C /* AgogoViewController.swift */,
+			);
+			path = Agogo;
+			sourceTree = "<group>";
+		};
+		E108679A216AA1260024A51C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E10BEE6A21A43BD600D4013E /* a1.wav */,
+				E10BEE6721A43BD600D4013E /* a1b.wav */,
+				E10BEE6921A43BD600D4013E /* a1c.wav */,
+				E10BEE6821A43BD600D4013E /* a2.wav */,
+				E10BEE6621A43BD600D4013E /* a2b.wav */,
+				E10BEE6F21A43BD600D4013E /* a2c.wav */,
+				E10BEE6D21A43BD600D4013E /* a3.wav */,
+				E10BEE6B21A43BD600D4013E /* a3b.wav */,
+				E10BEE6521A43BD500D4013E /* a3c.wav */,
+				E10BEE6C21A43BD600D4013E /* a4.wav */,
+				E10BEE6E21A43BD600D4013E /* a4b.wav */,
+				E10BEE7021A43BD600D4013E /* a4c.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E108679F216AB7880024A51C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E108679D216AB3F40024A51C /* UIImageView+Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +188,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10BEE7821A43BD600D4013E /* a4.wav in Resources */,
+				E10BEE7521A43BD600D4013E /* a1c.wav in Resources */,
+				E10BEE7A21A43BD600D4013E /* a4b.wav in Resources */,
+				E10BEE7C21A43BD600D4013E /* a4c.wav in Resources */,
+				E10BEE7B21A43BD600D4013E /* a2c.wav in Resources */,
+				E10BEE7721A43BD600D4013E /* a3b.wav in Resources */,
 				E108679221696BF50024A51C /* LaunchScreen.storyboard in Resources */,
+				E10BEE7421A43BD600D4013E /* a2.wav in Resources */,
 				E108678F21696BF50024A51C /* Assets.xcassets in Resources */,
-				E108678D21696BF20024A51C /* Main.storyboard in Resources */,
+				E10BEE7921A43BD600D4013E /* a3.wav in Resources */,
+				E10BEE7121A43BD600D4013E /* a3c.wav in Resources */,
+				E10BEE7621A43BD600D4013E /* a1.wav in Resources */,
+				E10BEE7321A43BD600D4013E /* a1b.wav in Resources */,
+				E10BEE7221A43BD600D4013E /* a2b.wav in Resources */,
+				E108678D21696BF20024A51C /* Agogo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E108678A21696BF20024A51C /* ViewController.swift in Sources */,
+				E108679E216AB3F40024A51C /* UIImageView+Extensions.swift in Sources */,
+				E10BEE7E21A43C5D00D4013E /* AgogoModel.swift in Sources */,
+				E108678A21696BF20024A51C /* AgogoViewController.swift in Sources */,
 				E108678821696BF20024A51C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,12 +223,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E108678B21696BF20024A51C /* Main.storyboard */ = {
+		E108678B21696BF20024A51C /* Agogo.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E108678C21696BF20024A51C /* Base */,
 			);
-			name = Main.storyboard;
+			name = Agogo.storyboard;
 			sourceTree = "<group>";
 		};
 		E108679021696BF50024A51C /* LaunchScreen.storyboard */ = {
@@ -292,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bernardoduarte.Agogo-Simulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bernardoduarte.Agogo-Simulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

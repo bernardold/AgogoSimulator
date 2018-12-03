@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Agogo View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AgogoViewController" customModule="Agogo_Simulator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cyh-RG-8Qs">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="agogo" translatesAutoresizingMaskIntoConstraints="NO" id="y2E-34-fbJ">
+                                        <rect key="frame" x="24" y="24" width="619" height="351"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="y2E-34-fbJ" firstAttribute="leading" secondItem="cyh-RG-8Qs" secondAttribute="leading" constant="24" id="UaA-FH-gMH"/>
+                                    <constraint firstItem="y2E-34-fbJ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="cyh-RG-8Qs" secondAttribute="top" constant="24" id="mBl-JK-N8e"/>
+                                    <constraint firstAttribute="trailing" secondItem="y2E-34-fbJ" secondAttribute="trailing" constant="24" id="sEA-cD-cth"/>
+                                    <constraint firstAttribute="bottom" secondItem="y2E-34-fbJ" secondAttribute="bottom" id="uwg-Tb-RIO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.792156862745098" green="0.80392156862745101" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cyh-RG-8Qs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0IZ-WP-JSe"/>
+                            <constraint firstItem="cyh-RG-8Qs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="C1z-uM-DWf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cyh-RG-8Qs" secondAttribute="bottom" id="RCh-5P-Ufj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cyh-RG-8Qs" secondAttribute="trailing" id="gsC-Ev-ING"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="agogoImageView" destination="y2E-34-fbJ" id="4jT-km-Wlw"/>
+                        <outlet property="agogoView" destination="cyh-RG-8Qs" id="ROJ-YI-IUd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35.532233883058474" y="48.799999999999997"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="agogo" width="1764" height="982"/>
+    </resources>
+</document>
